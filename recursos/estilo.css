@@ -1,0 +1,22 @@
+.navegacion {
+    background-color: #efc5ce!important;
+    border-color: #efc5ce!important;
+    text-decoration-color: black !important;
+}
+.productos{
+  width: 100%;
+  padding: 4rem 2rem;
+   margin-bottom: 2rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+.tituloproducto{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #4e4646;
+}

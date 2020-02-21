@@ -7,10 +7,8 @@
   <meta name="description" content="">
   <meta name="Landy" content="">
   <title>Tienda de manualidades</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="recursos/estilo.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -37,84 +35,72 @@
   </div>
 </nav>
 
-  <!--<nav class="navbar navbar-inverse navbar-light bg-primary text-dark text-uppercase" id="navegacion">
-    <div class="container-fluid">
-
-
-      <div class="navbar-header" >
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav nav">
-              <li class=" active"><a  href="index.html">Inicio</a></li>
-              <li ><a  href="#">Manualidades</a></li>
-              <li ><a  href="#">Flores</a></li>
-            </ul>
-          </div>
-
-      </div>
-    </div>
-  </nav>-->
-
 <!-------- Fin navegacion ------>
 
-  <!-- Imagen de bienvenida -->
-  <main>
+<!-- Imagen de bienvenida -->
+<div class="container main">
+  <div class="container-fluid">
 
-  <section class="productos">
-    <div class="container d-flex align-items-center flex-column " >
-      <h1 class="display-3">Imagen de bienvenida</h1>
-      <p>Sitio creado para la materia de Experiencia de Usuario en la web</p>
-    </div>
-  </section>
+    <section class="productos text-center">
+      <div class="container d-flex align-items-center flex-column " >
+        <h1 class="display-3">Imagen de bienvenida</h1>
+        <p>Sitio creado para la materia de Experiencia de Usuario en la web</p>
+      </div>
+    </section>
     <!-- PRODUCTOS -->
 
-
-  <div class="container">
-
-        <div class="tituloproducto">
-            <h2 class=" page-section-heading text-center text-uppercase text-secondary mb-0">Productos</h2>
+    <fieldset class="container">
+      <legend class="page-section-heading text-center text-uppercase text-secondary mb-0">Productos</legend>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <div class="card">
+            <img src="recursos/flor1.png" class="card-img-top img-fluid" alt="Manualidades pic">
+            <div class="card-body">
+              <h5 class="card-title">Manualidades</h5>
+              <p class="card-text"><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida neque at nisi malesuada sagittis. Donec varius risus nec justo faucibus, eu malesuada ligula rutrum.</p>
+              <a href="#" class="btn btn-primary">Seguir leyendo</a>
+            </div>
+          </div>
         </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <img class="rounded-circle" src="recursos/flor1.png" alt="" width="140" height="140">
-            <h3 class="card-title">Manualidades</h3>
-            <p class="card-text">Descripcion</p>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <div class="card">
+            <img src="recursos/flor2.png" class="card-img-top img-fluid" alt="Flores pic">
+            <div class="card-body">
+              <h5 class="card-title">Flores</h5>
+              <p class="card-text"><p class="card-text">Cras eget vulputate massa, ac aliquet felis. Nunc tincidunt orci non mauris volutpat consectetur nec sollicitudin felis. Quisque nibh arcu, cursus in vestibulum eu, rhoncus ac erat.</p>
+              <a href="#" class="btn btn-primary">Seguir leyendo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <div class="card">
+            <img src="recursos/flor3.png" class="card-img-top img-fluid" alt="Decoracion pic">
+            <div class="card-body">
+              <h5 class="card-title">Decoracion</h5>
+              <p class="card-text"><p class="card-text">Fusce leo lacus, tristique at finibus et, consequat nec metus. Maecenas tellus est, porttitor et elementum eget, tincidunt id mi. Phasellus imperdiet, nibh et ornare fringilla.</p>
+              <a href="#" class="btn btn-primary">Seguir leyendo</a>
+            </div>
+          </div>
+        </div>
       </div>
+    </fieldset>
+    <!-- seccion productos -->
+  </div>
+</div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <img class="rounded-circle" src="recursos/flor2.png" alt="" width="140" height="140">
-            <h3 class="card-title">Flores</h3>
-            <p class="card-text">Descripcion</p>
-      </div>
+<!-- Footer -->
+<footer class="">
+  <div class="container">
+    <p class="m-0 text-center text-white">By Landuchi &reg; all rights reserved &copy; 2020</p>
+  </div>
+</footer>
+<!-- Fin Footer -->
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <img class="rounded-circle" src="recursos/flor3.png" alt="" width="140" height="140">
-            <h3 class="card-title">Decoracion</h3>
-            <p class="card-text">Descripcion</p>
-      </div>
-
-    </div>
-
-
-
-
-  <!-- seccion productos -->
-
-</main>
-  <!-- Footer -->
-  <footer class="py-5 bg-primary">
-    <div class="container">
-      <p class="m-0 text-center text-dark">Realizado por Landy López Gómez</p>
-    </div>
-  </footer>
-  <!-- Fin Footer -->
-
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

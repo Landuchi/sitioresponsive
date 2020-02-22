@@ -3,13 +3,11 @@ body {
     height: 100%;
 }
 
-img {
-    /* margin-top: 1.2em;*/
-}
+
 
 footer {
     position: fixed;
-    /* border: 1px solid red; */
+    background-color: #efc5ce!important;
     bottom: 0;
     width: 100%;
     padding: 15px 10px;
@@ -18,7 +16,6 @@ footer {
 }
 
 .container {
-    /*height: 80%;*/
     width: 100%;
 }
 
@@ -44,13 +41,13 @@ footer {
 
 .tituloproducto{
   margin-top: 2rem;
-  margin-bottom: 2rem;
+
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: #4e4646;
 }
 
-.card {
-   /* border: 1px solid #e5e5e5;*/
+.album{
+   margin-top: 2rem;
 }
